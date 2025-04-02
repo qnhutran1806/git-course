@@ -5,6 +5,38 @@ git add .: Thêm toàn bộ vào vùng staging
 git commit -m "message": commit code với message
 
 2.
-Working directory: file1, file2, file3
-Staging Area: file1
-Commit: file1
+a. Tạo 3 file: file1, file2, file3
+- Local: file1, file2, file3
+- Working:
+- Staging:
+- Repository
+
+b. Chạy lệnh git init
+- Local: 
+- Working: file1, file2, file3
+- Staging:
+- Repository
+
+c. Chạy lệnh git commit -m "init project"
+- Local: 
+- Working: file1, file2, file3
+- Staging:
+- Repository
+
+d. Chạy lệnh git add file1
+- Local: 
+- Working: file2, file3
+- Staging: file1
+- Repository
+
+e. Chạy lệnh git commit -m "add file1"
+- Local: 
+- Working: file2, file3
+- Staging: 
+- Repository: file1
+
+f. Chạy lệnh git commit -m "add file"
+- Local: 
+- Working: file2, file3
+- Staging: 
+- Repository: file1
