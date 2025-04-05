@@ -50,34 +50,29 @@ i. Chạy lệnh: git reset HEAD~1
 - Staging: 
 - Repository: file1
 3. folder: lesson-3-git
-- Local: lesson-3-git
+a. Chạy lệnh git init -> khởi tạo repository
 - Working:
-- Staging:
-- Repository
-a. Chạy lệnh git init
-- Local: 
-- Working: lesson-3-git
 - Staging: 
 - Repository
 b. Tạo file file1.txt, file2.txt, oops/file3.txt.
-- Local: file1.txt, file2.txt, oops/file3.txt.
-- Working: lesson-3-git
+- Local: 
+- Working: file1.txt, file2.txt, oops/file3.txt.
 - Staging: 
 - Repository
 c. Thêm file .gitignore, thêm vào 2 dòng:
 i. file1.txt
 ii. oops/
 - Local: file2.txt, .gitignore
-- Working: lesson-3-git
+- Working: file1.txt, file2.txt, oops/file3.txt, .gitignore
 - Staging: 
 - Repository
 d. Chạy lệnh: git add .
 - Local: 
-- Working: 
-- Staging: lesson-3-git, file2.txt
+- Working: file1.txt, oops/file3.txt
+- Staging: file2.txt, .gitignore
 - Repository
 e. Chạy lệnh: git commit -m"init project"
 - Local: 
-- Working: 
+- Working: file1.txt, oops/file3.txt
 - Staging: 
-- Repository: lesson-3-git, file2.txt
+- Repository: file2.txt, .gitignore
